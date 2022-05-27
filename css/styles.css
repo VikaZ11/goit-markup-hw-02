@@ -88,7 +88,6 @@ body {
   text-transform: uppercase;
 }
 
-/*  ----------------------------Кнопка---------------------------- */
 .hero-button {
   background-color: var(--accent-color);
   color: #ffffff;
@@ -102,21 +101,6 @@ body {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #188ce8;
-}
-.portfolio-button {
-  background-color: #f5f4fa;
-  color: var(--title-text-color);
-  cursor: pointer;
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-}
-.portfolio-button:hover,
-.portfolio-button:focus {
-  background-color: var(--accent-color);
-  color: #ffffff;
 }
 
 /* ----------------------------Секция---------------------------- */
@@ -199,4 +183,20 @@ body {
 .portfolio-text {
   line-height: 1.88;
   color: var(--primary-text-color);
+}
+
+.portfolio-button {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
 }
